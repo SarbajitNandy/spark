@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/BookXMLSchema"
+	xmlns:tns="http://www.example.org/BookXMLSchema" elementFormDefault="qualified">
+
+	<element name='catalog'>
+		<complexType>
+			<sequence>
+				<element name="book" type="tns:bookType" maxOccurs="unbounded" minOccurs="1"></element>
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name='bookType'>
+		<sequence>
+			<element name='author' type='string' minOccurs="0"/>
+			<element name='title' type='string' minOccurs="0"/>
+			<element name='genre' type='string' minOccurs="0"/>
+			<element name='price' type='string' minOccurs="0"/>
+			<element name='publish_date' type='date' minOccurs="0"/>
+			<element name='description' type='string' minOccurs="0"/>
+		</sequence>
+		<attribute name="id" type="string"></attribute>
+	</complexType>
+
+	<attribute name="id" type="string"></attribute>
+
+</schema>

@@ -1,0 +1,9 @@
+Name,Age,DEP
+Anna,34560,ETA
+Anil,30000,RCL
+Justin,19000,ENG
+Jeffin,32000,IVS
+Listin,24000,HRD
+Dinse,49000,FAC
+Dinu,59000,RCL
+Rani,45000,ENG

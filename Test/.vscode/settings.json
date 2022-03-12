@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/sarbajit/anaconda3/envs/pyspark_2_env/bin/python",
+    "jupyter.jupyterServerType": "remote"
+}

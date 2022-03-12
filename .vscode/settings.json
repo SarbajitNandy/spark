@@ -1,0 +1,11 @@
+{
+    "jupyter.jupyterServerType": "local",
+    "files.associations": {
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp"
+    }
+}
